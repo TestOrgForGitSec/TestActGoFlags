@@ -1,0 +1,11 @@
+# Specify a non-default branch for pull requests for pip
+
+version: 2
+updates:
+  - package-ecosystem: "go"
+    directory: "/"
+    target-branch: "test-branch"
+    # Labels on pull requests for version updates only
+    labels:
+      - "go dependencies" 
+
