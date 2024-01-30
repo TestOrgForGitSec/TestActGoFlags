@@ -9,6 +9,7 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
+    target-branch: 'testbranch'
   - package-ecosystem: 'gomod'
     directory: '/'
     schedule:
